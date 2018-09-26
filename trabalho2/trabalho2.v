@@ -1,3 +1,4 @@
+//Rodrigo Eduardo de Oliveira Bauer Chichorro - 92535
 module ff ( input data, input c, input r, output q);
 reg q;
 always @(posedge c or negedge r) 
